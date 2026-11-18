@@ -1,0 +1,103 @@
+.dungdt-upload-box {
+    max-width: 250px;
+    /*margin: 0px auto;*/
+    position: relative;
+}
+
+.dungdt-upload-box .upload-box {
+    background: #fafbfc;
+    text-align: center;
+    border: 1px solid rgba(195, 207, 216, 0.3);
+    padding: 30px 20px;
+    transition: all 0.2s;
+}
+
+.dungdt-upload-box .upload-box svg {
+    width: 120px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.dungdt-upload-box .upload-box:hover {
+    border: 1px solid #c3cfd8;
+}
+
+.dungdt-upload-box .attach-demo {
+    background: #fafbfc;
+    text-align: center;
+    border: 1px solid rgba(195, 207, 216, 0.3);
+    transition: all 0.2s;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.dungdt-upload-box .attach-demo img {
+    max-width: 100%;
+}
+
+.dungdt-upload-box .upload-actions,
+.dungdt-upload-box .attach-demo {
+    display: none;
+}
+
+.dungdt-upload-box.active .upload-actions {
+    display: flex;
+}
+
+.dungdt-upload-box.active .upload-box {
+    display: none;
+}
+
+.dungdt-upload-box.active .attach-demo {
+    display: block;
+}
+
+.dungdt-upload-box .delete {
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.dungdt-upload-box .delete i {
+    color: white;
+}
+
+.dungdt-upload-box:hover .delete {
+    display: block;
+}
+
+.dungdt-upload-multiple .attach-demo {
+    margin: 0px -7px;
+    flex-wrap: wrap;
+}
+
+.dungdt-upload-multiple .attach-demo .image-item {
+    flex: 0 0 20%;
+    margin-bottom: 10px;
+    padding: 0px 7px;
+    border-radius: 3px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+
+.dungdt-upload-multiple .attach-demo .image-item .delete {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.dungdt-upload-multiple .attach-demo .image-item:hover .delete {
+    display: block;
+}
+
+.dungdt-upload-multiple .attach-demo .image-item .inner {
+    border: 1px solid rgba(195, 207, 216, 0.3);
+    background: #fafbfc;
+}

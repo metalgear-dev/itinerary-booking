@@ -1,0 +1,73 @@
+# Laravel / PHP
+/vendor/
+/sys/vendor/
+/sys/node_modules/
+/node_modules/
+composer.phar
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+/sys/.env
+/sys/.env.*
+!/sys/.env.example
+
+# Laravel storage & caches
+/sys/storage/*.key
+/sys/storage/installed
+/sys/storage/logs/*
+!/sys/storage/logs/.gitignore
+/sys/storage/framework/cache/*
+!/sys/storage/framework/cache/.gitignore
+/sys/storage/framework/sessions/*
+!/sys/storage/framework/sessions/.gitignore
+/sys/storage/framework/testing/*
+!/sys/storage/framework/testing/.gitignore
+/sys/storage/framework/views/*
+!/sys/storage/framework/views/.gitignore
+/sys/storage/debugbar/
+/sys/storage/app/*
+!/sys/storage/app/.gitignore
+!/sys/storage/app/public/
+/sys/storage/app/public/*
+!/sys/storage/app/public/.gitignore
+!/sys/storage/app/public/demo/
+/sys/bootstrap/cache/*
+!/sys/bootstrap/cache/.gitignore
+
+# Uploads & public build artifacts
+/uploads/
+/dist/
+/css/
+/module/**/*.css
+/module/**/*.map
+/sys/public/hot
+/sys/public/storage
+/sys/public/uploads/0000
+/sys/public/css
+/sys/public/dist
+/sys/public/fonts
+
+# Frontend / Node
+npm-debug.log
+yarn-error.log
+yarn-debug.log*
+npm-debug.log*
+/sys/resources/ckeditor/node_modules/
+
+# Testing
+.phpunit.result.cache
+/sys/.phpunit.result.cache
+phpunit.xml.bak
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Homestead.json
+Homestead.yaml

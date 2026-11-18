@@ -1,0 +1,25 @@
+{
+    "name": "bookingcore/itinerary",
+    "description": "",
+    "authors": [
+        {
+            "name": "BookingCore",
+            "email": "bookingcore.org@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Plugins\\Itinerary\\Providers\\ItineraryServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\Itinerary\\": ""
+        }
+    }
+}

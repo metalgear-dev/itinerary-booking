@@ -1,0 +1,131 @@
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 80%;
+        min-width: 300px;
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+}
+
+.image-container{
+    display: flex;
+    overflow-x: auto;
+}
+
+.image-container div.gallery {
+    border: 1px solid #ccc;
+    float: left;
+    height: 150px;
+    width: auto;
+    margin: auto;
+    padding: 5px;
+}
+
+.image-container div.gallery-empty {
+    display: flex;
+    align-items : center;
+}
+
+.image-container div.gallery-empty label {
+    padding: 0 10px;
+}
+
+div.gallery img {
+    height: 100%;
+    width: auto;
+}
+
+#modalPreview .spot-info{
+    margin: auto;
+}
+
+#modalPreview .modal-footer button{
+    margin-left: 50px;
+}
+
+@media (max-width: 500px){
+    #modalPreview .modal-footer button{
+        margin-left: 20px;
+    }
+}
+
+.block-spot-form .image-editor{
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+    height: calc(100% - 20px);
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.block-spot-form .image-editor label{
+    margin: auto;
+    font-size: 14px;
+    color: #495057;
+}
+
+.block-spot-form .image-editor img{
+    width: 100%;
+    height: 90px;
+    overflow-y: hidden;
+}
+
+.block-spot-form .image-editor .upload-actions{
+    position: absolute;
+    right: 23px;
+    color: white;
+    display: none;
+}
+
+.block-spot-form .image-editor:hover .upload-actions{
+    display: block;
+}
+
+
+/* image uploading edit modal stylesheet */
+#modalEdit .image-container{
+    border-top: 1px solid #dee2e6;
+    padding-top : 1rem;
+}
+
+#modalEdit .uploader-browser .button-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem 0;
+}
+
+#modalEdit .image-container div.gallery{
+    position: relative;
+    padding: 5px;
+}
+
+#modalEdit .image-container div.gallery button{
+    position: absolute;
+    top: -6px;
+    right: 0px;
+    border-style: none;
+    background-color: #bbb;
+    border-radius: 57%;
+    width: 20px;
+    height: 20px;
+    line-height: 8px;
+    padding: 5px;
+    color: black;
+
+}
+
+#modalEdit .image-container div.gallery button:hover{
+    background-color: #ddd;
+}
+
+#modalEdit .uploader-browser .image-item{
+    margin: 5px;
+}
+
+#modalEdit .dungdt-upload-box{
+    margin: auto;
+}

@@ -1,0 +1,201 @@
+/*# sourceMappingURL=app.css.map */
+.header-widgets .widget-user .user-avatar img {
+    height: 32px;
+}
+.main-sidebar {
+    bottom: 60px;
+    overflow-x: hidden;
+}
+.bottom-sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #263a53;
+    color: #d4d4d4;
+    width: 240px;
+    z-index: 10;
+    height: 58px;
+}
+.bottom-sidebar li>a {
+    padding: 10px 17px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+}
+
+.bottom-sidebar li a {
+    display: block;
+    text-decoration: none;
+    color: #cad6e2;
+    padding: 5px 18px;
+}
+.bottom-sidebar >li>a span.icon {
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+    margin-right: 10px;
+}
+.bottom-sidebar {
+    list-style: none;
+    padding: 12px 0 0 0;
+    margin: 0;
+}
+.bottom-sidebar>li>a span.icon i.icon {
+    font-size: 24px;
+}
+.main-sidebar .user-avatar {
+    border-radius: 50%;
+    text-align: center;
+    background: #e67e22;
+    color: #fff;
+    font-size: 48px;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+table img.widget-icon {
+    height: 26px;
+}
+table td .span-category {
+    border-radius: 5px;
+    background-color: #eee;
+    color: #343a40;
+    font-weight: 700;
+    padding: 3px 6px;
+}
+table td .span-category:not(:first-of-type) {
+    margin-left: 10px;
+}
+.phpdebugbar {
+    display: none;
+}
+
+/* @author terminator */
+
+.bravo_wrap .page-template-content .bravo-option-item .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.bravo_wrap .page-template-content .bravo-option-item .nav-pills .nav-item a {
+    width: 150px;
+    text-align: center;
+}
+form .panel .form-group label {
+    font-weight: 500;
+}
+.has-search-map .bravo_search_map .results_map {
+    width: 80%;
+}
+.has-search-map .bravo_search_map .results_map .results_map_inner {
+    height: 70%;
+}
+.bravo_wrap .bravo_search_tour .bravo-list-item .list-item .item-tour .thumb-image {
+    height: 100px;
+}
+.has-search-map .bravo_search_map .results_map .map-item-tour .thumb-image {
+    max-width: 100px;
+    height: 80px;
+}
+.map-item-tour .thumb-image img {
+    height: 80px;
+}
+.has-search-map .bravo_search_map .results_map .map-item-tour .item-title {
+    font-size: 12px;
+    line-height: 1.5;
+}
+.has-search-map .bravo_search_map .results_map .infoBox {
+    width: 300px !important;
+}
+.has-search-map .bravo_search_map .results_map .infoBox > img {
+    position: absolute !important;
+    right: 0;
+    z-index: 1;
+}
+.bravo_chat .bravo_chat_icon {
+    bottom: 50px;
+    right: 50px;
+    z-index: 9;
+    background-color: crimson;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.bravo_chat .bravo_chat_box {
+    bottom: 100px;
+    right: 50px;
+    z-index: 9;
+    width: 300px;
+    height: 500px;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+.bravo_chat .bravo_chat_box .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.bravo_chat .bravo_chat_box .bravo_chat_box_topbar {
+    background-color: crimson;
+    min-height: 45px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.bravo_chat .bravo_chat_box .bravo_chat_box_content {
+    height: 412px;
+    overflow: auto;
+}
+.bravo_chat .bravo_chat_box .bravo_chat_box_content .chat-msg {
+    border-radius: 10px;
+    max-width: 200px;
+    word-break: break-word;
+}
+.bravo_chat .bravo_chat_box .bravo_chat_box_content .chat-msg.send-msg {
+    background-color: royalblue;
+}
+.bravo_chat .bravo_chat_box .bravo_chat_box_content .chat-msg.receive-msg {
+    background-color: indianred;
+}
+.bravo_chat .bravo_chat_box .bravo_chat_box_control .form-control {
+    border: none;
+    box-shadow: none;
+    border-bottom-left-radius: 10px;
+    height: 40px;
+    resize: none;
+    padding-top: 10px;
+}
+.bravo_chat .bravo_chat_box .bravo_chat_box_control .form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+.bravo_chat .bravo_chat_box .bravo_chat_box_control .btn-link {
+    border-bottom-right-radius: 10px;
+}
+i.inquiry- {
+    color: transparent;
+}
+i[class^='inquiry-'], i[class*= " inquiry-"] {
+    color: transparent;
+}
+i.inquiry-applied {
+    color: transparent;
+}
+i.inquiry-replying {
+    color: #7ec365;
+}
+i.inquiry-replied {
+    color: #6c757d;
+}
+.pagintaion {
+    justify-content: center;
+}
+.main-sidebar .main-menu li .badge {
+    min-width: 20px;
+    position: absolute;
+    right: 10px;
+}
+/* @author bravemaster */

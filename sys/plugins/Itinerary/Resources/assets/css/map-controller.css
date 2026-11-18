@@ -1,0 +1,159 @@
+i.remove {
+    color: #bfbfbf;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+i.remove:hover {
+    color: inherit;
+}
+.block-spot {
+    display:inline-block;
+    font-size: 80%;
+    line-height: 1;
+    padding: 3px;
+
+}
+.block-spot .overlay {
+    display: none;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: calc(100% - 5pt);
+    height: calc(100% - 5pt);
+    background-color: rgba(0,0,0,0.6);
+    opacity: 90%;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+}
+.block-spot-new,
+.block-spot-predefined {
+    cursor: pointer;
+}
+.block-spot-wrapper {
+    border: 1px dotted #c7c7c7;
+    height: 100%;
+    width: 100%;
+    padding: 5px 3px 3px 3px;
+    max-height: 215px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.block-spot-new .block-spot-wrapper {
+    border: 1px solid #20c997;
+}
+.block-spot-predefined .block-spot-wrapper {
+    border: 1px solid #c7c7c7;
+}
+.block-spot-form .block-spot-wrapper {
+    padding: 5px 3px 3px 0px;
+    border: 1px solid #6c757d;
+}
+.block-spot .btn-field-upload {
+    font-size: 70%;
+}
+.block-spot .dungdt-upload-box {
+    padding: 0px 5px;
+}
+.block-spot .dungdt-upload-box .upload-box {
+    padding: 3px 5px!important;
+}
+.block-spot .dungdt-upload-box svg#next-dropzone {
+    height: 60px !important;
+    width: 70% !important;
+}
+.block-spot .dungdt-upload-box .upload-box div:first-of-type {
+    height: 60px;
+    margin-bottom: 3px;
+}
+.block-spot .attach-demo {
+    height: 96px;
+}
+.block-spot .overlay button {
+    border-radius: 100%;
+}
+#divTour {
+    cursor: pointer;
+}
+#panelSpots {
+    max-height: 360px;
+    overflow-y: scroll;
+    border: 2px solid #c7c7c7;
+    padding: 10px 20px;
+}
+#panelLocation .nav-item {
+    cursor: pointer;
+}
+#tourToolbar {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#divTour .tour-day {
+    margin-bottom: 9px;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+#divTour .tour-day.active {
+    box-shadow: 5px 5px #aaa;
+    border: 1px solid #999;
+}
+#divTour .tour-day-title {
+    font-weight: 700;
+    width: 100%;
+    color: #f8f9fa;
+    background-image: linear-gradient(to right, #6f42c1, #f5fafe);
+    padding: 4px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+#divTour .tour-day ol {
+    margin-bottom: 0;
+    /*list-style: none;*/
+    padding-inline-start: 0;
+}
+#divTour .tour-day ol li {
+    margin: 0;
+    margin-left: 30px;
+    padding: 4px 8px 4px 4px;
+}
+#divTour .tour-day ol li.active,
+#divTour .tour-day ol li:hover {
+    background-color: #ccc;
+    position: relative;
+    z-index: 5;
+}
+
+#divTour .tour-day ol li:hover::before{
+    width: calc(100% + 30px);
+    height: 100%;
+    position: absolute;
+    left:-30px;
+    top: 0;
+    content: "";
+    background-color: #eee;
+    z-index: -2;
+}
+
+#divTour .tour-day ol li.active::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:-30px;
+    top: 0;
+    content: "";
+    background-color: #ccc;
+    z-index: -1;
+}
+
+#divTour .tour-day ol li:not(.active):hover {
+    background-color: #eee;
+}
+.gmnoprint {
+    left: auto!important;
+    right: 60px!important;
+}
+#pac_input {
+    position: absolute;
+    left: 0!important;
+    top: 12px!important;
+}
